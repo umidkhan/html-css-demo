@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+}
+
+.box {
+    margin-top: 50px;
+    width: 400px;
+    height: 400px;
+    border: 2px solid red;
+    background-color: indigo;
+    /* outline */
+    outline-style: solid;
+    outline-color: indigo;
+    outline-width: 20px; 
+    /* outline-offset: 20px; */
+}
+
+.box:hover{ 
+    background-color: white;
+}
